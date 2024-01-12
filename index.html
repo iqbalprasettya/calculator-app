@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator in HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="calc-header">
+        <h1>calc</h1>
+        <div class="theme">
+          <span class="theme-text">theme</span>
+          <div class="theme-switcher">
+            <label for="default">
+              <small>1</small>
+              <input
+                type="radio"
+                id="default"
+                name="theme"
+                data-theme="default"
+                value="default"
+                checked
+              />
+              <span class="indicator"></span>
+            </label>
+            <label for="light">
+              <small>2</small>
+              <input
+                type="radio"
+                id="light"
+                name="theme"
+                data-theme="light"
+                value="light"
+              />
+              <span class="indicator"></span>
+            </label>
+            <label for="dark">
+              <small>3</small>
+              <input
+                type="radio"
+                id="dark"
+                name="theme"
+                data-theme="dark"
+                value="dark"
+              />
+              <span class="indicator"></span>
+            </label>
+            <div class="switch-slider"></div>
+          </div>
+        </div>
+      </header>
+      <input type="text" class="display" id="display" />
+      <div class="buttons-container">
+        <div class="buttons">
+          <button data-value="7">7</button>
+          <button data-value="8">8</button>
+          <button data-value="9">9</button>
+          <button class="operator-del" data-value="DEL">DEL</button>
+
+          <button data-value="4">4</button>
+          <button data-value="5">5</button>
+          <button data-value="6">6</button>
+          <button class="operator" data-value="+">+</button>
+
+          <button data-value="1">1</button>
+          <button data-value="2">2</button>
+          <button data-value="3">3</button>
+          <button class="operator" data-value="-">-</button>
+
+          <button data-value=".">.</button>
+          <button data-value="0">0</button>
+          <button class="operator" data-value="/">/</button>
+          <button class="operator" data-value="*">X</button>
+        </div>
+        <div class="buttons2">
+          <button class="operator2" data-value="AC">RESET</button>
+          <button class="operator2" data-value="=">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
