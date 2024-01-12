@@ -15,6 +15,7 @@
   --primary-color: #fff;
   --text-color-2: #fff;
   --text-color-1: hsl(221, 14%, 31%);
+  --text-display-1: hsl(0, 0%, 93%);
   --key-background-1: hsl(30, 25%, 89%);
   --key-background-2: hsl(225, 21%, 49%);
   --key-background-3: hsl(6, 63%, 50%);
@@ -32,6 +33,7 @@
   --text-color-1: hsl(60, 10%, 19%);
   --primary-color: hsl(60, 10%, 19%);
   --text-color-2: hsl(0, 0%, 93%);
+  --text-display-1: hsl(60, 10%, 19%);
   --key-background-1: hsl(45, 7%, 89%);
   --key-background-2: hsl(185, 42%, 37%);
   --key-background-3: hsl(25, 98%, 40%);
@@ -49,6 +51,7 @@
   --primary-color: hsl(52, 100%, 62%);
   --text-color-1: hsl(52, 100%, 62%);
   --text-color-2: hsl(268, 71%, 12%);
+  --text-display-1: hsl(52, 100%, 62%);
   --key-background-1: hsl(268, 47%, 21%);
   --key-background-2: hsl(281, 89%, 26%);
   --key-background-3: hsl(176, 100%, 44%);
@@ -83,7 +86,7 @@ header {
   text-align: right;
   margin-bottom: 10px;
   font-size: 42px;
-  color: var(--text-color-1);
+  color: var(--text-display-1);
   background-color: var(--screen-background);
   pointer-events: none;
   padding: 20px 20px;
